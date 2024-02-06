@@ -81,9 +81,9 @@ def stations():
         station_dict = {}
         station_dict["station"] = station
         station_dict["name"] = name
-        station_dict["latitude"] = latitude
-        station_dict["longitude"] = longitude
-        station_dict["elevation"] = elevation
+        # station_dict["latitude"] = latitude
+        # station_dict["longitude"] = longitude
+        # station_dict["elevation"] = elevation
         all_stations.append(station_dict)
         
     return jsonify(all_stations)
